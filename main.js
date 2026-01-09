@@ -1,0 +1,74 @@
+// ЗАДАЧА-1
+
+// const regExp = /^\d+$/
+
+// const containsOnlyDigits = (str) => {
+//     return regExp.test(str)
+// }
+
+// console.log(containsOnlyDigits("12345")) // Выведет true
+// console.log(containsOnlyDigits("12a45")) // Выведет false
+
+
+
+// ЗАДАЧА-2
+
+// function showSeconds() {
+//     let number = 1
+    
+//     const intervalId = setInterval( () => {
+//         console.log("Прошла секунда")
+//         number++
+//     }, 1000)
+// }
+
+// showSeconds()
+
+
+
+// ЗАДАЧА-3
+
+// const count = () => {
+//     let i = 1
+//     const interval = setInterval( () => {
+//         if (i >= 10) {
+//             clearInterval(interval)
+//             console.log("Счёт остановлен")
+//         }
+
+//         i++
+
+//     },1000)
+// }
+
+// count()
+
+
+
+// ЗАДАЧА-4 
+
+// const block = document.getElementById('id_Block')
+
+// block.addEventListener('click', function() {
+
+//     this.classList.toggle('active')
+
+// })
+
+
+
+// ЗАДАЧА-5
+
+// const xhr = new XMLHttpRequest()
+// xhr.open('GET', 'data.json')
+// xhr.setRequestHeader(`Content-type`, `application/json`) 
+// xhr.send()
+
+// xhr.onload = function() {
+//     const data = JSON.parse(xhr.response)
+//     console.log(data)
+//     console.log('key1:', data.key1)
+//     console.log('key2:', data.key2)
+//     console.log('key3:', data.key3)
+// }
+

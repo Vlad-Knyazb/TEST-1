@@ -1,0 +1,10 @@
+.block {
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(177, 16, 16);
+    margin: 50px auto;
+}
+
+.block.active {
+    background-color: rgb(186, 168, 6);
+}
