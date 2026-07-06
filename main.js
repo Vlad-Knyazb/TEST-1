@@ -1,4 +1,4 @@
-// ЗАДАЧА-1
+// TASK 1
 
 // const regExp = /^\d+$/
 
@@ -11,7 +11,7 @@
 
 
 
-// ЗАДАЧА-2
+// TASK 2
 
 // function showSeconds() {
 //     let number = 1
@@ -26,7 +26,7 @@
 
 
 
-// ЗАДАЧА-3
+// TASK 3
 
 // const count = () => {
 //     let i = 1
@@ -45,7 +45,7 @@
 
 
 
-// ЗАДАЧА-4 
+// TASK 4 
 
 // const block = document.getElementById('id_Block')
 
@@ -57,7 +57,7 @@
 
 
 
-// ЗАДАЧА-5
+// TASK 5
 
 // const xhr = new XMLHttpRequest()
 // xhr.open('GET', 'data.json')
