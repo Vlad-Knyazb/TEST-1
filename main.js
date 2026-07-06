@@ -55,20 +55,3 @@
 
 // })
 
-
-
-// TASK 5
-
-// const xhr = new XMLHttpRequest()
-// xhr.open('GET', 'data.json')
-// xhr.setRequestHeader(`Content-type`, `application/json`) 
-// xhr.send()
-
-// xhr.onload = function() {
-//     const data = JSON.parse(xhr.response)
-//     console.log(data)
-//     console.log('key1:', data.key1)
-//     console.log('key2:', data.key2)
-//     console.log('key3:', data.key3)
-// }
-
